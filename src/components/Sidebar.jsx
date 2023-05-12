@@ -29,13 +29,14 @@ function Sidebar() {
               Home
             </li>
             </Link>
+            
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
-              Faculties
+              <Link to="/faculty" className="link">  Faculties</Link>
             </li>
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
-              Units
+              <Link to="/units" className="link">  Units</Link>
             </li>
           </ul>
         </div>
@@ -45,19 +46,10 @@ function Sidebar() {
             <Link to="/users" className="link">
               <li className="sidebarListItem">
                 <PermIdentity className="sidebarIcon" />
-                Users
+                <Link to="/user" className="link"> Users</Link>
               </li>
             </Link>
-            {/* <Link to="/products" className="link">
-              <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
-                Products
-              </li>
-            </Link> */}
-            {/* <li className="sidebarListItem">
-              <AttachMoney className="sidebarIcon" />
-              Transactions
-            </li> */}
+            
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
               Document Sharing

@@ -1,19 +1,12 @@
-// import Chart from '../components/Chart';
 import '../css/page/home.css'
-// import { userData } from "../dummyData";
 import {Container, Row, Col, Card} from 'react-bootstrap';
+
 
 function Home() {
   return (
     
-    // <div className='home'>
-    //  <Card.Title> Welcome to Registrar Dashboard </Card.Title>
-    // <Card.Body> This dashboard makes sharing of documents possible among 
-    //   different units in Registrar's Office</Card.Body> 
-    
-      
-    // </div>
-    <>
+   <>
+  
     <Container>
         <Row>
           <Col>
@@ -41,10 +34,14 @@ function Home() {
                   
                 </div>
               </Card.Footer>
+              {/* <Card.Img>
+                <img src="images/KINMATECH LOGO 2.png" alt="" />
+              </Card.Img> */}
             </Card>
             </Col>
         </Row>
       </Container>
+     
        </>
     
   );

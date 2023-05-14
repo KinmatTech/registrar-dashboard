@@ -4,6 +4,7 @@ function Faculty() {
   return (
     <div>
       <h2>List of Faculties</h2>
+    
     </div>
   )
 }

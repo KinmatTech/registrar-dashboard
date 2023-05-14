@@ -7,3 +7,21 @@
     display: flex;
     margin: 20px;
 }
+
+.pageleft{
+    margin-left:10px;
+    position:relative;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size:25px;
+
+}
+
+.btnstat{
+    margin-left: 100px;
+    color: #ffffff;
+    background-color: rgba(68, 227, 32, 0.768);
+    font-weight: bolder;
+    font-size: x-large;
+   
+}

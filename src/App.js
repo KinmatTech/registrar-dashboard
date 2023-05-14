@@ -5,7 +5,6 @@ import "./App.css";
 import Home from "./pages/Home";
 import Faculty from './pages/Faculty';
 import Unit from './pages/Unit';
-import User from './pages/User';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/units" element={<Unit />} />
-          <Route path="/user" element={<User />} />
+        
                    
         </Routes>
       </div>
